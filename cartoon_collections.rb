@@ -23,5 +23,5 @@ end
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   food.detect{|i| i.include(cheese_types[i])}
-  food
+  cheese_types[i]
 end
